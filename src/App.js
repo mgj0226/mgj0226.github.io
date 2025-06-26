@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    // <Router>
       <div className="body">
         <p>Welcome to Michael's portfolio. The page is in renovation at the moment.</p>
         {/* <Routes>
@@ -13,7 +13,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes> */}
       </div>
-    </Router>
+    // </Router>
   );
 }
 
