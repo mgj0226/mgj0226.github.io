@@ -7,8 +7,8 @@ export default function Home() {
           Welcome to My Portfolio
         </h1>
         <p className="font-[family-name:var(--font-geist-mono)] text-lg">
-          I'm Michael Chan, a developer with a passion for building
-          web applications. Here, you'll find my projects, ideas, and
+          I am Michael Chan, a developer with a passion for building
+          web applications. Here, you will find my projects, ideas, and
           insights into my work.
         </p>
       </main>
