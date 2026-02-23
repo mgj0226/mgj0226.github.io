@@ -1,3 +1,8 @@
+This is Michael Chan's portfolio.
+Header: Nav + Menu
+Footer: Created by + Contact
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
