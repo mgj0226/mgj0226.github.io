@@ -1,3 +1,5 @@
+@import "variables";
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,10 +11,11 @@ body {
 
 App {
     text-align: center;
+    background-color: $primary-color;
     }
 
 Header {
-    background-color: #282c34;
+    background-color: $secondary-color;
     min-height: 10vh;
     display: flex;
     flex-direction: column;
@@ -23,7 +26,7 @@ Header {
     }
 
 Footer {
-    background-color: #282c34;
+    background-color: $secondary-color;
     color: white;
     padding: 1em;
     position: fixed;
