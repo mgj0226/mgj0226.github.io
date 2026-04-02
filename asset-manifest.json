@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.f73ac8cd.css",
-    "main.js": "/static/js/main.31483caf.js",
+    "main.css": "/static/css/main.000d9c56.css",
+    "main.js": "/static/js/main.63e406d3.js",
     "static/js/453.d7ca8e86.chunk.js": "/static/js/453.d7ca8e86.chunk.js",
     "static/media/Pilibon2.gif": "/static/media/Pilibon2.c45f3c82d4c4ce0b2f76.gif",
+    "static/media/InBug-White.png": "/static/media/InBug-White.183c507635f8f18f6138.png",
+    "static/media/GitHub_Invertocat_White.svg": "/static/media/GitHub_Invertocat_White.af449656122efd92a74656c5818dd6ad.svg",
     "static/media/wolfLogo4.svg": "/static/media/wolfLogo4.74ba7ada3b7a49b399f9693b6515088a.svg",
     "index.html": "/index.html",
-    "main.f73ac8cd.css.map": "/static/css/main.f73ac8cd.css.map",
-    "main.31483caf.js.map": "/static/js/main.31483caf.js.map",
+    "static/media/email_icon.svg": "/static/media/email_icon.ae3021f1969c350e0a82796b29805e65.svg",
+    "main.000d9c56.css.map": "/static/css/main.000d9c56.css.map",
+    "main.63e406d3.js.map": "/static/js/main.63e406d3.js.map",
     "453.d7ca8e86.chunk.js.map": "/static/js/453.d7ca8e86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f73ac8cd.css",
-    "static/js/main.31483caf.js"
+    "static/css/main.000d9c56.css",
+    "static/js/main.63e406d3.js"
   ]
 }
