@@ -5,27 +5,36 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-App {
+.app {
   text-align: center;
   background-color: #0A1A2F;
+  color: #FFFFFF;
+  min-height: 100vh;
 }
 
-Header {
+.header {
   background-color: #13253D;
-  min-height: 10vh;
+  min-height: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #666666;
+  color: #FFFFFF;
 }
 
-Footer {
+.footer {
   background-color: #13253D;
-  color: #666666;
-  padding: 1em;
+  color: #FFFFFF;
+  min-height: 5vh;
   position: fixed;
   width: 100%;
   bottom: 0;
+  display: flex;
+  font-size: calc(10px + 1vmin);
+}
+.footer .gif {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }/*# sourceMappingURL=App.css.map */

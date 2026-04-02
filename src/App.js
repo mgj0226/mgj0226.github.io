@@ -8,7 +8,7 @@ import Projects from './components/MainComponents/Projects';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header className="header" />
       <Routes>
         <Route path="/" element={<Home />} />
