@@ -7,11 +7,11 @@ body {
 
 App {
   text-align: center;
-  background-color: #F6F6EF;
+  background-color: #0A1A2F;
 }
 
 Header {
-  background-color: #FFFFFF;
+  background-color: #13253D;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@ Header {
 }
 
 Footer {
-  background-color: #FFFFFF;
+  background-color: #13253D;
   color: #666666;
   padding: 1em;
   position: fixed;
