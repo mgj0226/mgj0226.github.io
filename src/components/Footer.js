@@ -16,10 +16,10 @@ export default function Footer() {
         <a href="https://github.com/mgj0226" target="_blank" rel="noopener noreferrer">
           <img src={GitHub} alt="GitHub" className="icon" />
         </a>
-        <a href="https://www.linkedin.com/in/michael-g-johnson/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/michaeldev7/" target="_blank" rel="noopener noreferrer">
           <img src={LinkedIn} alt="LinkedIn" className="icon" />
         </a>
-        <a href="mailto:michael.g.johnson@email.com">
+        <a href="mailto:michael27mic@email.com">
           <img src={Email} alt="Email" className="icon" />
         </a>
       </nav>
