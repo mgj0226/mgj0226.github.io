@@ -12,6 +12,34 @@ body {
   min-height: 100vh;
 }
 
+.home {
+  margin-top: 20vh;
+  display: grid;
+  grid-template-areas: "icon line1" "icon line2";
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #FFFFFF;
+}
+.home .home-icon {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  grid-area: icon;
+}
+.home .line1 {
+  font-size: calc(20px + 2vmin);
+  margin-bottom: 0;
+  grid-area: line1;
+}
+.home .line2 {
+  font-size: calc(20px + 2vmin);
+  margin-top: 0;
+  grid-area: line2;
+}
+
 .header {
   background-color: #13253D;
   min-height: 10vh;

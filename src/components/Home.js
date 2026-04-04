@@ -1,8 +1,11 @@
+import icon from '../assets/wolfLogo4.svg';
+
 export default function Home() {
   return (
     <div className="home">
-      <h1>Welcome to My Portfolio</h1>
-      <p>This is the home page of my portfolio website.</p>
+        <img src={icon} alt="Wolf Logo" className="home-icon" />
+        <h1 className='line1'>Front End Developer</h1>
+      <h1 className='line2'>Michael Chan</h1>
     </div>
   );
 }

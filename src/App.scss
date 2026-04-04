@@ -17,6 +17,36 @@ body {
     min-height: 100vh;
     }
 
+.home {
+    margin-top: 20vh;
+    display: grid;
+    grid-template-areas: 
+    "icon line1"
+    "icon line2"
+    ;
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: $primary-text-color;
+        .home-icon {
+            width: 200px;
+            height: 200px;
+            margin-right: 20px;
+            grid-area: icon;
+        }
+        .line1 {
+            font-size: calc(20px + 2vmin);
+            margin-bottom: 0;
+            grid-area: line1;
+        }
+        .line2 {
+            font-size: calc(20px + 2vmin);
+            margin-top: 0;
+            grid-area: line2;
+    }
+}
+
 .header {
     background-color: $secondary-color;
     min-height: 10vh;
