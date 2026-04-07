@@ -47,6 +47,52 @@ body {
     }
 }
 
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: calc(10px + 1vmin);
+    color: $primary-text-color;
+    :-title {
+        font-size: calc(20px + 2vmin);
+        margin-bottom: 20px;
+    }
+    .about-text {
+        max-width: 80vh;
+        text-align: left;
+    }
+    .about-image {
+        width: 200px;
+        height: 200px;
+        margin-top: 0px;
+    }
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: calc(10px + 1vmin);
+    color: $primary-text-color;
+    .projects-title {
+        font-size: calc(20px + 2vmin);
+        margin-bottom: 20px;
+    }
+    .project-list {
+        max-width: 80vh;
+        text-align: left;
+        list-style-type: none;
+        padding-left: 0;
+        li {
+            margin-bottom: 10px;
+        }
+    }
+}
+
 .header {
     background-color: $secondary-color;
     min-height: 10vh;
