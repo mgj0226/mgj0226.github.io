@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6d7d746.css",
-    "main.js": "/static/js/main.4f7187bf.js",
+    "main.css": "/static/css/main.2f899cf7.css",
+    "main.js": "/static/js/main.ed48f6ec.js",
     "static/js/453.d7ca8e86.chunk.js": "/static/js/453.d7ca8e86.chunk.js",
     "static/media/Pilibon2.gif": "/static/media/Pilibon2.c45f3c82d4c4ce0b2f76.gif",
     "static/media/InBug-White.png": "/static/media/InBug-White.183c507635f8f18f6138.png",
@@ -9,12 +9,12 @@
     "static/media/wolfLogo4.svg": "/static/media/wolfLogo4.74ba7ada3b7a49b399f9693b6515088a.svg",
     "index.html": "/index.html",
     "static/media/email_icon.svg": "/static/media/email_icon.ae3021f1969c350e0a82796b29805e65.svg",
-    "main.e6d7d746.css.map": "/static/css/main.e6d7d746.css.map",
-    "main.4f7187bf.js.map": "/static/js/main.4f7187bf.js.map",
+    "main.2f899cf7.css.map": "/static/css/main.2f899cf7.css.map",
+    "main.ed48f6ec.js.map": "/static/js/main.ed48f6ec.js.map",
     "453.d7ca8e86.chunk.js.map": "/static/js/453.d7ca8e86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6d7d746.css",
-    "static/js/main.4f7187bf.js"
+    "static/css/main.2f899cf7.css",
+    "static/js/main.ed48f6ec.js"
   ]
 }
