@@ -60,7 +60,7 @@ body {
         margin-bottom: 20px;
     }
     .about-text {
-        max-width: 80vh;
+        max-width: 80vw;
         text-align: left;
     }
     .about-image {
@@ -83,12 +83,16 @@ body {
         margin-bottom: 20px;
     }
     .project-list {
-        max-width: 80vh;
-        text-align: left;
+        max-width: 80vw;
         list-style-type: none;
         padding-left: 0;
-        li {
-            margin-bottom: 10px;
+        .project-item {
+            margin-bottom: 20px;
+            font-size: medium;
+            .project-image {
+                width: 100px;
+                height: 100px;
+            }
         }
     }
 }

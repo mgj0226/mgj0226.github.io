@@ -54,7 +54,7 @@ body {
   margin-bottom: 20px;
 }
 .about .about-text {
-  max-width: 80vh;
+  max-width: 80vw;
   text-align: left;
 }
 .about .about-image {
@@ -77,13 +77,17 @@ body {
   margin-bottom: 20px;
 }
 .projects .project-list {
-  max-width: 80vh;
-  text-align: left;
+  max-width: 80vw;
   list-style-type: none;
   padding-left: 0;
 }
-.projects .project-list li {
-  margin-bottom: 10px;
+.projects .project-list .project-item {
+  margin-bottom: 20px;
+  font-size: medium;
+}
+.projects .project-list .project-item .project-image {
+  width: 100px;
+  height: 100px;
 }
 
 .header {
