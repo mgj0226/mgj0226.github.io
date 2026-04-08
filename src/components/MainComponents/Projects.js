@@ -8,13 +8,13 @@ export default function Projects() {
         <p>Here are some of my projects:</p>
       </section>
       <section className="project-list">
-        <div className="project-item">
+        <a href="/LittleLemon" className="project-item">
           <img 
           src={LittleLemonIcon} 
           alt="Little Lemon logo" 
           className="project-image" />
           <h2>Little Lemon</h2>
-        </div>
+        </a>
       </section>
     </div>
   );
