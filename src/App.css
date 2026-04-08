@@ -84,10 +84,15 @@ body {
 .projects .project-list .project-item {
   margin-bottom: 20px;
   font-size: medium;
+  color: #FFFFFF;
 }
 .projects .project-list .project-item .project-image {
   width: 100px;
   height: 100px;
+}
+.projects .project-list .project-item .project-image:hover {
+  width: 120px;
+  height: 120px;
 }
 
 .header {

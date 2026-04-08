@@ -89,9 +89,14 @@ body {
         .project-item {
             margin-bottom: 20px;
             font-size: medium;
+            color: $primary-text-color;
             .project-image {
                 width: 100px;
                 height: 100px;
+                &:hover {
+                width: 120px;
+                height: 120px;
+                }
             }
         }
     }
