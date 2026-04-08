@@ -6,8 +6,8 @@ export default function Header() {
         <img src={icon} alt="Icon" className='icon' />
       </a>
       <nav className='nav'>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
+        <a href="about">About</a>
+        <a href="projects">Projects</a>
       </nav>
     </header>
   );
