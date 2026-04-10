@@ -1,5 +1,10 @@
 @import "variables";
 
+html {
+    scroll-padding-top: 10vh;
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -18,7 +23,8 @@ body {
     }
 
 .home {
-    margin-top: 20vh;
+    margin-bottom: 50vh;
+    padding-top: 40vh;
     display: grid;
     grid-template-areas: 
     "icon line1"
@@ -55,7 +61,7 @@ body {
     padding: 20px;
     font-size: calc(10px + 1vmin);
     color: $primary-text-color;
-    :-title {
+    .about-title {
         font-size: calc(20px + 2vmin);
         margin-bottom: 20px;
     }
@@ -75,7 +81,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 50vh 20px;
     font-size: calc(10px + 1vmin);
     color: $primary-text-color;
     .projects-title {
@@ -105,6 +111,8 @@ body {
 .header {
     background-color: $secondary-color;
     min-height: 10vh;
+    width: 100%;
+    position: fixed;
     display: grid;
     grid-template-columns: auto auto 3fr;
     align-items: center;
